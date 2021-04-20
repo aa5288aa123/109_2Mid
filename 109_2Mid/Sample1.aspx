@@ -20,8 +20,16 @@
             <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px"></asp:TextBox>
             <br/>
             <asp:Label ID="Label3" runat="server" Text="興趣" Font-Size="X-Large"></asp:Label>
+            &nbsp;&nbsp;
+            <asp:CheckBox ID="checkbox1" runat="server" Text="看書" />
+            <asp:CheckBox ID="CheckBox2" runat="server" Text="打電動" />
+            <asp:CheckBox ID="CheckBox3" runat="server" Text="其他" />
             <br/>
             <asp:Label ID="Label4" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
+        &nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink1" runat="server" Height="30px" ImageUrl="aws-brands.svg" NavigateUrl="https://aws.amazon.com/tw/" Width="30px">HyperLink</asp:HyperLink>
+            <br />
+            <asp:Button ID="bt_Next" runat="server" Text="送出" Height="30px" PostBackUrl="~/Sample1Com.aspx" Width="80px" />
         </div>
     </form>
 </body>
