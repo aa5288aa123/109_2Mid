@@ -17,7 +17,7 @@
             <br/>
             <asp:Label ID="Label2" runat="server" Text="密碼" Font-Size="X-Large"></asp:Label>
             &nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px"></asp:TextBox>
+            <asp:TextBox ID="tb_Pass" runat="server" Height="15px" Width="200px" TextMode="Password"></asp:TextBox>
             <br/>
             <asp:Label ID="Label3" runat="server" Text="興趣" Font-Size="X-Large"></asp:Label>
             &nbsp;&nbsp;
